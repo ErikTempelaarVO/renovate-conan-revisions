@@ -3,9 +3,15 @@
   "conan": {
     "enabled": true
   },
-  "hostRules": [
+  "hostRules": [{
+    "matchHost": "https://conan.jfreeman.dev",
+    "hostType": "conan",
+    }
+  ],
+  "packageRules": [
     {
-      "matchHost": "https://conan.jfreeman.dev"
+      "matchDatasources": ["conan"],
+      "registryUrls": ["https://conan.jfreeman.dev"]
     }
   ]
 }
