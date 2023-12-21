@@ -3,4 +3,9 @@
   "conan": {
     "enabled": true
   }
+  "hostRules": [
+    {
+      "matchHost": "https://conan.jfreeman.dev"
+    }
+  ]
 }
