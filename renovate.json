@@ -5,13 +5,13 @@
   },
   "hostRules": [{
     "matchHost": "https://conan.jfreeman.dev",
-    "hostType": "conan",
+    "hostType": "artifactory",
     }
   ],
   "packageRules": [
     {
       "matchPackageNames": ["cupcake"],
-      "matchDatasources": ["conan"],
+      "matchDatasources": ["artifactory"],
       "registryUrls": ["https://conan.jfreeman.dev"]
     },
     {
