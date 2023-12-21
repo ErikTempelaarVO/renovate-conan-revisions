@@ -10,7 +10,7 @@
   ],
   "packageRules": [
     {
-      "matchPackageNames": ["cupcake"],
+      "matchDepNames": ["cupcake"],
       "matchDatasources": ["artifactory"],
       "registryUrls": ["https://conan.jfreeman.dev"]
     }
