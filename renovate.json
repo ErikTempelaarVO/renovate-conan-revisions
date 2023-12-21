@@ -8,11 +8,6 @@
     "hostType": "artifactory",
     }
   ],
-    "hostRules": [{
-    "matchHost": "https://conan.jfreeman.dev",
-    "hostType": "conan",
-    }
-  ],
   "packageRules": [
     {
       "matchDepNames": ["cupcake"],
