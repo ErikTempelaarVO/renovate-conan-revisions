@@ -11,7 +11,7 @@
   "packageRules": [
     {
       "matchDatasources": ["conan"],
-      "registryUrls": ["https://conan.jfreeman.dev"]
+      "registryUrls": ["https://center.conan.io", "https://conan.jfreeman.dev"]
     }
   ]
 }
