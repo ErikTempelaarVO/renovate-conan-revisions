@@ -13,10 +13,6 @@
       "matchPackageNames": ["cupcake"],
       "matchDatasources": ["artifactory"],
       "registryUrls": ["https://conan.jfreeman.dev"]
-    },
-    {
-      "matchDatasources": ["conan"],
-      "registryUrls": ["https://center.conan.io"]
     }
   ]
 }
